@@ -1,0 +1,32 @@
+Mencari nama pada buku tahunan
+
+Jumlah halaman buku = 20
+Nama yang ingin dicari "Vincent Julius"
+
+Pseudo code ke -1 (Binary Search)
+
+1. Read buku tahunan (20 Halaman)
+2. Read to middle of buku tahunan (Halaman ke -10)
+3. Look at the page
+4. if "Vincent Julius" is on the page
+5.     - Print "Vincent Julius ditemukan"
+6. Else if "Vincent Julius" is earlier in buku tahunan 
+7.     - Open to middle of left half of buku tahunan (Halaman ke-5)
+8.     - Go back to line 3
+9. Else if "Vincent Julius" is later in 
+10.    - open to middle of right half of buku tahunan (Halaman ke-15)
+11.    - Go back to line 3
+12. Else 
+13.    - Quit
+
+Big O Notation at worst case = O(Log n)
+
+Pseudo code ke-2 (Linear Search)
+
+1. Read buku tahunan 
+2. Open 2 page 
+2. Find "Vincent Julius" from halaman 1 - 20
+3. Quit
+
+Big O Notation at worst case = O(n)
+
